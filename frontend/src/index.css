@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn-custom {
+  background-color: #f8d56a; /* Amarillo claro */
+  color: #000; /* Color de texto (opcional) */
+}

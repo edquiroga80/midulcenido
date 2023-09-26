@@ -1,6 +1,5 @@
 const products = [
-  {
-    _id: '1',
+  {    
     name: 'Ajuares',
     image: '/images/cami1.jpeg',
     description:
@@ -12,8 +11,7 @@ const products = [
     rating: 4.5,
     numReviews: 12,
   },
-  {
-    _id: '2',
+  {    
     name: 'Ajuares2',
     image: '/images/cami2.jpeg',
     description:
@@ -25,8 +23,7 @@ const products = [
     rating: 4.0,
     numReviews: 8,
   },
-  {
-    _id: '3',
+  {    
     name: 'Ajuares3',
     image: '/images/cami3.jpeg',
     description:
@@ -39,7 +36,7 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: '4',
+    
     name: 'Chaleco Delfi',
     image: '/images/delfi.jpeg',
     description:
@@ -51,8 +48,7 @@ const products = [
     rating: 5,
     numReviews: 12,
   },
-  {
-    _id: '5',
+  {    
     name: 'Calza Hada',
     image: '/images/hada.jpeg',
     description:
@@ -64,8 +60,7 @@ const products = [
     rating: 3.5,
     numReviews: 10,
   },
-  {
-    _id: '6',
+  {    
     name: 'Vestido Siena',
     image: '/images/siena.jpg',
     description:
