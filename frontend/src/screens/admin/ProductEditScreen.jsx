@@ -23,7 +23,6 @@ const ProductEditScreen = () => {
   const [countInStock, setCountInStock] = useState("");
   const [description, setDescription] = useState("");
 
-  
   const {
     data: product,
     isLoading,
@@ -70,7 +69,7 @@ const ProductEditScreen = () => {
       toast.success("Producto editado con exito👍");
       navigate("/admin/productlist");
     }
-  }; 
+  };
 
   const uploadFileHandler = async (e) => {
     const formData = new FormData();
@@ -133,6 +132,7 @@ const ProductEditScreen = () => {
                 onChange={uploadFileHandler}
               ></Form.Control>
             </Form.Group>
+            {loadingUpload && <Loader />}
 
             <Form.Group controlId="brand" className="my-2">
               <Form.Label>Marca</Form.Label>

@@ -15,3 +15,20 @@ code {
   background-color: #f8d56a; /* Amarillo claro */
   color: #000; /* Color de texto (opcional) */
 }
+
+/* .carousel-caption {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ce9b03;
+} */
+
+/* Clase personalizada para las imágenes del carrusel */
+.carousel-image {
+  max-width: 100%; 
+  max-height: 50px; 
+  display: block; 
+  margin: 0 auto; 
+}
